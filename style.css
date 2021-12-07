@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/pexels-kampus-production-5940721.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+nav ul li a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+nav ul li a:hover{
+    color: crimson;
+}
+.text-box{
+    margin-top: 5%;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.text-box span{
+    color: crimson;
+}
+.text-box h1{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    line-height: 100px;
+    width: 40%;
+    margin-left: 10%;
+}
+.text-box p{
+    margin-left: 10%;
+    width: 40%;
+}
+.search-box{
+    margin: 1% 0% 0% 10%;
+    background: white;
+    width: fit-content;
+    display: block;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 5px;
+
+}
+.search-box input{
+    background: transparent;
+    width: 600px;
+    border: 0;
+    outline: none;
+    padding: 10px 0;
+}
+.search-box button{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.search-box button img{
+    color: crimson;
+    width: 30px;
+    margin-bottom: -30%;
+}
+.logo-con{
+    text-align: left;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: -3%;
+}
+.logo-con a{
+    text-decoration: none;
+    color: crimson;
+    background: white;
+    font-size: 65px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-family: 'mukta';
+    font-weight: 800;
+}
+.logo-con p{
+    background: crimson;
+    width: 12%;
+    border-radius: 40%;
+    color: white;
+    
+}
